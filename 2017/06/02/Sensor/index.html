@@ -1,0 +1,1052 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="课本知识,传感器,">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="WBH's Blog" type="application/atom+xml">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1">
+
+
+
+
+
+
+<meta name="description" content="传感器复习题1. 传感器由哪些部分组成？各部分的主要功能？传感器由敏感元件、转换元件、基本电路组成；  功能：敏感元件感受被测量，转换元件将响应的被测量转换为电参量，基本电路把电参量接入电路转换为电量。 2. 传感器有哪些分类方法？按输入被测量是如何划分的？按被测量或检测对象划分，还有从材料、工艺、应用角度分类的； 按传感器检测的范畴、输出信号性质、结构、功能、转换原理分类； 按输入被测量可分为：">
+<meta name="keywords" content="课本知识,传感器">
+<meta property="og:type" content="article">
+<meta property="og:title" content="传感器复习">
+<meta property="og:url" content="http://acrophobia1234.github.io/2017/06/02/Sensor/index.html">
+<meta property="og:site_name" content="WBH&#39;s Blog">
+<meta property="og:description" content="传感器复习题1. 传感器由哪些部分组成？各部分的主要功能？传感器由敏感元件、转换元件、基本电路组成；  功能：敏感元件感受被测量，转换元件将响应的被测量转换为电参量，基本电路把电参量接入电路转换为电量。 2. 传感器有哪些分类方法？按输入被测量是如何划分的？按被测量或检测对象划分，还有从材料、工艺、应用角度分类的； 按传感器检测的范畴、输出信号性质、结构、功能、转换原理分类； 按输入被测量可分为：">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-03-27T13:42:53.689Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="传感器复习">
+<meta name="twitter:description" content="传感器复习题1. 传感器由哪些部分组成？各部分的主要功能？传感器由敏感元件、转换元件、基本电路组成；  功能：敏感元件感受被测量，转换元件将响应的被测量转换为电参量，基本电路把电参量接入电路转换为电量。 2. 传感器有哪些分类方法？按输入被测量是如何划分的？按被测量或检测对象划分，还有从材料、工艺、应用角度分类的； 按传感器检测的范畴、输出信号性质、结构、功能、转换原理分类； 按输入被测量可分为：">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"always","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://acrophobia1234.github.io/2017/06/02/Sensor/">
+
+
+
+
+
+  <title>传感器复习 | WBH's Blog</title>
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?6c318062bc8d089c33280cc0eb7e1870";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">WBH's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Always being chasing.</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://acrophobia1234.github.io/2017/06/02/Sensor/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="WBH">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="WBH's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">传感器复习</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-02T11:14:55+08:00">
+                2017-06-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-updated">
+              &nbsp; | &nbsp; Posted modified
+              <time itemprop="dateUpdated" datetime="2018-03-27T21:42:53+08:00" content="2018-03-27">
+                2018-03-27
+              </time>
+            </span>
+          
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/课本知识/" itemprop="url" rel="index">
+                    <span itemprop="name">课本知识</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/06/02/Sensor/" class="leancloud_visitors" data-flag-title="传感器复习">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Views: </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="传感器复习题"><a href="#传感器复习题" class="headerlink" title="传感器复习题"></a>传感器复习题</h1><h2 id="1-传感器由哪些部分组成？各部分的主要功能？"><a href="#1-传感器由哪些部分组成？各部分的主要功能？" class="headerlink" title="1. 传感器由哪些部分组成？各部分的主要功能？"></a>1. 传感器由哪些部分组成？各部分的主要功能？</h2><p>传感器由<strong>敏感元件</strong>、<strong>转换元件</strong>、<strong>基本电路</strong>组成； </p>
+<p>功能：敏感元件感受被测量，转换元件将响应的被测量转换为电参量，基本电路把电参量接入电路转换为电量。</p>
+<h2 id="2-传感器有哪些分类方法？按输入被测量是如何划分的？"><a href="#2-传感器有哪些分类方法？按输入被测量是如何划分的？" class="headerlink" title="2. 传感器有哪些分类方法？按输入被测量是如何划分的？"></a>2. 传感器有哪些分类方法？按输入被测量是如何划分的？</h2><p>按被测量或检测对象划分，还有从材料、工艺、应用角度分类的；</p>
+<p>按传感器检测的范畴、输出信号性质、结构、功能、转换原理分类；</p>
+<p>按输入被测量可分为：力学量、热学量、流体量、光学量、电量、磁学量、声学量、化学量、生物量、机器人等； </p>
+<h2 id="3-传感器的静态特性指标有哪些？含义是什么？"><a href="#3-传感器的静态特性指标有哪些？含义是什么？" class="headerlink" title="3.  传感器的静态特性指标有哪些？含义是什么？"></a>3.  传感器的静态特性指标有哪些？含义是什么？</h2><p>  <strong>线性度</strong>、迟滞、重复性、阈值、<strong>灵敏度</strong>、稳定性、噪声、漂移 （线性度和灵敏度为较重要的指标，其余回答两个）<br>  含义： </p>
+<p>1) 线性度：线性度又称非线性，表征传感器输出-输入校准曲线（或平均校准曲线）与所选定的作为工作直线的拟合直线之间的偏离程度。</p>
+<p>2) 灵敏度：灵敏度是指传感器在稳定工作条件下，输出微小变化增量与引起此变化的输入微小变量的比值。</p>
+<p>3) 迟滞特性：对于同一大小的输入信号，传感器正反行程的输出信号大小不等，产生迟滞现象。</p>
+<p>4) 重复性：重复性是指在相同的条件下，输入量按同一方向作全量程多次测量时，所得传感器输出特性曲线不一致的程度。</p>
+<p>5) 漂移：漂移是指传感器的被测量不变，而其输出量却发生了变化。</p>
+<p>6) 稳定性：稳定性表示传感器在一较长时间内保持性能参数的能力。</p>
+<p>7) 分辨率：当传感器的输入从非零值缓慢增加时，在超过某一增量后，输出发生可观测的变化，这个输入增量称为传感器的分辨率，即最小输入增量。</p>
+<p>8) 阈值：当传感器的输入从零值开始增加时，在达到某一值后，输出发生可观测的变化，这个输入值称传感器的阈值电压，阈值电压是指输入小到某种程度输出不再变化的值。</p>
+<h2 id="4-传感器的动态误差有哪些？含义是什么？"><a href="#4-传感器的动态误差有哪些？含义是什么？" class="headerlink" title="4. 传感器的动态误差有哪些？含义是什么？"></a>4. 传感器的动态误差有哪些？含义是什么？</h2><p>动态误差包含两个部分：（1）<strong>稳态误差</strong>（2）<strong>暂态误差</strong>；</p>
+<p>含义：</p>
+<p>1) 输出达到稳定状态后与理想输出之间的差别称为稳态误差。</p>
+<p>2) 输入量发生跃变时，输出量由一个稳定状态过渡到另一个稳定状态期间的误差，称为暂态误差。</p>
+<p>对于一阶传感器，时间常数 T是最重要的指标，T越小越好；二阶传感器的重要动态指标包括阻尼系数和固有频率</p>
+<h2 id="5-两种仅弹性系数不同的弹簧构成的弹簧秤，哪些静态特性指标不一样？"><a href="#5-两种仅弹性系数不同的弹簧构成的弹簧秤，哪些静态特性指标不一样？" class="headerlink" title="5. 两种仅弹性系数不同的弹簧构成的弹簧秤，哪些静态特性指标不一样？"></a>5. 两种仅弹性系数不同的弹簧构成的弹簧秤，哪些静态特性指标不一样？</h2><p>  线性度和灵敏度 </p>
+<h2 id="6-电阻式传感器的基本类型和主要原理。"><a href="#6-电阻式传感器的基本类型和主要原理。" class="headerlink" title="6.电阻式传感器的基本类型和主要原理。"></a>6.电阻式传感器的基本类型和主要原理。</h2><p>电阻应变式传感器两种：包含金属电阻应变片和半导体压阻式传感器；</p>
+<p>金属丝电阻应变片的基本原理是基于电阻应变效应，即导体产生机械形变时，其电阻值发生变化。</p>
+<p> 半导体电阻应变片是一种利用半导体材料压阻效应的电阻型传感器。在某一方向受到作用力时，它的电阻率会发生明显变化，这种现象被称为压阻效应。</p>
+<h2 id="7-什么是横向效应？"><a href="#7-什么是横向效应？" class="headerlink" title="7. 什么是横向效应？"></a>7. 什么是横向效应？</h2><p>直线电阻绕成敏感栅后，虽然长度相同，但应变不同，圆弧部分使灵敏度下降了，这种现象就称为横向效应。</p>
+<h2 id="8-对于应变片的温度误差，电桥线路补偿法的实现方法？"><a href="#8-对于应变片的温度误差，电桥线路补偿法的实现方法？" class="headerlink" title="8. 对于应变片的温度误差，电桥线路补偿法的实现方法？"></a>8. 对于应变片的温度误差，电桥线路补偿法的实现方法？</h2><p>在被测试件感受应变的位置上安装一个应变片$R_1$（工作片）；在试件不受力的位置粘贴一个应变片$R_B$（补偿片），两个应变片的安装位置靠近，完全处于同一个温度场中。测量时连接在相邻的电桥臂上，当温度变化时，电阻$R_1$，$R_B$都发生变化，当温度变化相同时，因材料相同温度系数相同，因此温度引起的电阻变化相同，$\Delta R_1$与$\Delta R_B$相等，使电桥输出$U_0$与温度无关。</p>
+<h2 id="9-对比直流电桥，比较单臂、半桥、全桥的线性度、灵敏度，并给出分析过程。"><a href="#9-对比直流电桥，比较单臂、半桥、全桥的线性度、灵敏度，并给出分析过程。" class="headerlink" title="9. 对比直流电桥，比较单臂、半桥、全桥的线性度、灵敏度，并给出分析过程。"></a>9. 对比直流电桥，比较单臂、半桥、全桥的线性度、灵敏度，并给出分析过程。</h2><p><strong>单臂电桥</strong>电压灵敏度$K_u=  \cfrac{E}{ 4}$ ，非线性误差近似值 $\gamma = \cfrac{\Delta R_1}{2R_1 }$ ，其中，对金属丝应变片，$\Delta R$非常小，则<strong>非线性误差可以忽略</strong>，而对半导体应变片，感受应变时$\Delta R$ 较大，非线性误差不能忽略。</p>
+<p><strong>半桥</strong>电压灵敏度$K_u=  \cfrac{E}{ 2}$，是单臂电桥的2倍，同时由于半桥差动电路的输出电压$U_o$与电阻变化率$\cfrac{\Delta R } R$呈线性关系，所以半桥差动电路<strong>无非线性误差</strong>，同时具有温度补偿作用。</p>
+<p><strong>全桥</strong>电压灵敏度$K_u=  {E }$ ，是单臂电桥工作时的4倍，和半桥一样，它不仅<strong>没有非线性误差</strong>，同时具有温度补偿作用。</p>
+<h2 id="10-电容式传感器包含哪三种结构形式？它们的适用范围是什么？"><a href="#10-电容式传感器包含哪三种结构形式？它们的适用范围是什么？" class="headerlink" title="10. 电容式传感器包含哪三种结构形式？它们的适用范围是什么？"></a>10. 电容式传感器包含哪三种结构形式？它们的适用范围是什么？</h2><p><strong>变面积型</strong>电容式传感器，<strong>变极距型</strong>电容式传感器，<strong>变介质型</strong>电容式传感器；</p>
+<p>适用范围：</p>
+<p>变面积型电容式传感器：多用于测线位移、角位移，</p>
+<p>变极距型电容式传感器：适宜做小位移测量，</p>
+<p>变介质型电容式传感器：普遍用于液面高度测量、介质厚度测量，可制成料位计等。</p>
+<h2 id="11-变极距型电容传感器的初始间距如何设计？要避免什么？为提高灵敏度可以采用什么结构？"><a href="#11-变极距型电容传感器的初始间距如何设计？要避免什么？为提高灵敏度可以采用什么结构？" class="headerlink" title="11. 变极距型电容传感器的初始间距如何设计？要避免什么？为提高灵敏度可以采用什么结构？"></a>11. 变极距型电容传感器的初始间距如何设计？要避免什么？为提高灵敏度可以采用什么结构？</h2><p>要提高变极距式电容传感器灵敏度$k_0$，应减小初始极距$\delta_0$,要避免电容击穿，可在极板间放置高介电常数的材料作为介质。</p>
+<p>为提高灵敏度可以采用差动结构（包括一个动片，一个静片）。</p>
+<h2 id="12-电感式传感器按照结构可以分为哪三种；什么是电涡流，如何利用它进行金属表面探伤？"><a href="#12-电感式传感器按照结构可以分为哪三种；什么是电涡流，如何利用它进行金属表面探伤？" class="headerlink" title="12.电感式传感器按照结构可以分为哪三种；什么是电涡流，如何利用它进行金属表面探伤？"></a>12.电感式传感器按照结构可以分为哪三种；什么是电涡流，如何利用它进行金属表面探伤？</h2><p><strong>变磁阻式</strong>、<strong>变压器式</strong>、<strong>涡流式</strong>；</p>
+<p>一个块状的金属导体置于变化的磁场中或在磁场中切割磁力线运动时，导体内部会产生闭合的电流，这种电流像水中漩涡，故称为电涡流。</p>
+<p>探伤时，传感器与被测金属保持距离不变，如果有裂纹出现，导体电阻率会产生变化，涡流损耗改变，从而引起输出电压的变化。</p>
+<h2 id="13-磁电感应式传感器工作时可以不加电源，为什么？它的缺点是什么？"><a href="#13-磁电感应式传感器工作时可以不加电源，为什么？它的缺点是什么？" class="headerlink" title="13.磁电感应式传感器工作时可以不加电源，为什么？它的缺点是什么？"></a>13.磁电感应式传感器工作时可以不加电源，为什么？它的缺点是什么？</h2><p>工作时无需外加电压，可直接将被测物体的机械能转换为电量输出。</p>
+<p><strong>缺点</strong>：传感器尺寸大，而且比较重，频率响应低。</p>
+<h2 id="14-在测量转速实验中，频率-转速的测量结果有什么关系？为什么？"><a href="#14-在测量转速实验中，频率-转速的测量结果有什么关系？为什么？" class="headerlink" title="14. 在测量转速实验中，频率/转速的测量结果有什么关系？为什么？"></a>14. 在测量转速实验中，频率/转速的测量结果有什么关系？为什么？</h2><p>在测量转速实验中，转速n（每分钟转的圈数）是频率的10倍（每秒的脉冲个数），因为在一个圆上，将半圆铣空，用发光二极管和光敏二极管各聚两边，当铣空部份经过时光敏二极管导通，送出脉冲，当没铣空部份经过时光敏二极管关断，脉冲截止，<strong>这就是一圈计一个脉冲，但是一圈经过了6个小磁片，所以用计数器计下的电动机每分钟转速n是$60\div6=10$倍的每秒钟的脉冲个数，也就是频率。</strong></p>
+<h2 id="15-霍尔效应、霍尔元件存在不等位电势，如何补偿？"><a href="#15-霍尔效应、霍尔元件存在不等位电势，如何补偿？" class="headerlink" title="15. 霍尔效应、霍尔元件存在不等位电势，如何补偿？"></a>15. 霍尔效应、霍尔元件存在不等位电势，如何补偿？</h2><p>采用桥路平衡的方法进行补偿。为使电桥平衡，可在阻值大的桥臂上并联电阻或在两个桥臂上同时并联电阻，调节$R_W$的阻值，使不等位电势为零或最小。</p>
+<h2 id="16-读磁卡的原理是什么？"><a href="#16-读磁卡的原理是什么？" class="headerlink" title="16. 读磁卡的原理是什么？"></a>16. 读磁卡的原理是什么？</h2><p>磁卡上面剩余磁感应强度Br 在磁卡工作过程中起着决定性的作用。磁卡以一定的速度通过装有线圈的工作磁头，磁卡的的外部磁力线切割线圈，在线圈中产生感应电动势，从而传输了被记录的信号。当然，也要求在磁卡工作中被记录信号有较宽的频率响应、较小的失真和较高的输出电平。</p>
+<h2 id="17-压电陶瓷利用的原理是什么？"><a href="#17-压电陶瓷利用的原理是什么？" class="headerlink" title="17. 压电陶瓷利用的原理是什么？"></a>17. 压电陶瓷利用的原理是什么？</h2><p>压电陶瓷，它有压电效应,即受到外界施加的压力后材料自身就会产生<strong>电荷的累积</strong>,即由压力产生电荷的现象就叫压电效应.从而可以通过电荷的变化来感应压力的变化。</p>
+<h2 id="18-压电传感器能测量静态物理量吗？"><a href="#18-压电传感器能测量静态物理量吗？" class="headerlink" title="18. 压电传感器能测量静态物理量吗？"></a>18. 压电传感器能测量静态物理量吗？</h2><p><strong>不能</strong>，因为压电式传感器只有在动态时才有信号输出，静态时不管受压与否，压力有多大，都没有信号输出，所以不能用于静态测量。</p>
+<h2 id="19-超声波测距的原理是什么？"><a href="#19-超声波测距的原理是什么？" class="headerlink" title="19. 超声波测距的原理是什么？"></a>19. 超声波测距的原理是什么？</h2><p>通过超声波发射装置发出超声波，根据接收器接到超声波时的时间差就可以知道距离了。 超声波发射器向某一方向发射超声波，在发射时刻的同时开始计时，超声波在空气中传播，途中碰到障碍物就立即返回来，超声波接收器收到反射波就立即停止计时。</p>
+<h2 id="20-光电效应分为哪两种？、-而内光电效应又分为哪两种"><a href="#20-光电效应分为哪两种？、-而内光电效应又分为哪两种" class="headerlink" title="20. 光电效应分为哪两种？、  而内光电效应又分为哪两种"></a>20. 光电效应分为哪两种？、  而内光电效应又分为哪两种</h2><p>光电效应分为<strong>外光电效应</strong>与<strong>内光电效应</strong>。内光电效应又分为<strong>光电导效应</strong>和<strong>光生伏特效应</strong>。</p>
+<h2 id="21-光电鼠标的原理？"><a href="#21-光电鼠标的原理？" class="headerlink" title="21. 光电鼠标的原理？"></a>21. 光电鼠标的原理？</h2><p>光电鼠标内部有一个发光二极管，通过它发出的光线，可以照亮光电鼠标底部表面。此后，光电鼠标经底部表面反射回的一部分光线，通过一组光学透镜后，传输到一个光感应器件（微成像器）内成像。这样，当光电鼠标移动时，其移动轨迹便会被记录为一组高速拍摄的连贯图像，被光电鼠标内部的一块专用图像分析芯片（DSP，即数字微处理器）分析处理。该芯片通过对这些图像上特征点位置的变化进行分析，来判断鼠标的移动方向和移动距离，从而完成光标的定位。</p>
+<h2 id="22-试构思一种测量脉搏的测量方法（光敏电阻）"><a href="#22-试构思一种测量脉搏的测量方法（光敏电阻）" class="headerlink" title="22. 试构思一种测量脉搏的测量方法（光敏电阻）"></a>22. 试构思一种测量脉搏的测量方法（光敏电阻）</h2><p>利用红外发射、接受传感器对手指末端血流变化的检测，利用放大电路放大信号，间接检测出脉搏信号，并在数码管上显示每分钟所测的人体脉搏数。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/课本知识/" rel="tag"># 课本知识</a>
+          
+            <a href="/tags/传感器/" rel="tag"># 传感器</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/05/26/Beautiful numbers/" rel="next" title="Beautiful numbers">
+                <i class="fa fa-chevron-left"></i> Beautiful numbers
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/06/06/jisuanzhidao2017-6/" rel="prev" title="2017计蒜客计算之道初赛第六场 微软大楼设计方案（困难）">
+                2017计蒜客计算之道初赛第六场 微软大楼设计方案（困难） <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="WBH">
+          <p class="site-author-name" itemprop="name">WBH</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">21</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">categories</span>
+              
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">18</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#传感器复习题"><span class="nav-number">1.</span> <span class="nav-text">传感器复习题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-传感器由哪些部分组成？各部分的主要功能？"><span class="nav-number">1.1.</span> <span class="nav-text">1. 传感器由哪些部分组成？各部分的主要功能？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-传感器有哪些分类方法？按输入被测量是如何划分的？"><span class="nav-number">1.2.</span> <span class="nav-text">2. 传感器有哪些分类方法？按输入被测量是如何划分的？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-传感器的静态特性指标有哪些？含义是什么？"><span class="nav-number">1.3.</span> <span class="nav-text">3.  传感器的静态特性指标有哪些？含义是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-传感器的动态误差有哪些？含义是什么？"><span class="nav-number">1.4.</span> <span class="nav-text">4. 传感器的动态误差有哪些？含义是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-两种仅弹性系数不同的弹簧构成的弹簧秤，哪些静态特性指标不一样？"><span class="nav-number">1.5.</span> <span class="nav-text">5. 两种仅弹性系数不同的弹簧构成的弹簧秤，哪些静态特性指标不一样？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-电阻式传感器的基本类型和主要原理。"><span class="nav-number">1.6.</span> <span class="nav-text">6.电阻式传感器的基本类型和主要原理。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-什么是横向效应？"><span class="nav-number">1.7.</span> <span class="nav-text">7. 什么是横向效应？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-对于应变片的温度误差，电桥线路补偿法的实现方法？"><span class="nav-number">1.8.</span> <span class="nav-text">8. 对于应变片的温度误差，电桥线路补偿法的实现方法？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-对比直流电桥，比较单臂、半桥、全桥的线性度、灵敏度，并给出分析过程。"><span class="nav-number">1.9.</span> <span class="nav-text">9. 对比直流电桥，比较单臂、半桥、全桥的线性度、灵敏度，并给出分析过程。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10-电容式传感器包含哪三种结构形式？它们的适用范围是什么？"><span class="nav-number">1.10.</span> <span class="nav-text">10. 电容式传感器包含哪三种结构形式？它们的适用范围是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#11-变极距型电容传感器的初始间距如何设计？要避免什么？为提高灵敏度可以采用什么结构？"><span class="nav-number">1.11.</span> <span class="nav-text">11. 变极距型电容传感器的初始间距如何设计？要避免什么？为提高灵敏度可以采用什么结构？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#12-电感式传感器按照结构可以分为哪三种；什么是电涡流，如何利用它进行金属表面探伤？"><span class="nav-number">1.12.</span> <span class="nav-text">12.电感式传感器按照结构可以分为哪三种；什么是电涡流，如何利用它进行金属表面探伤？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#13-磁电感应式传感器工作时可以不加电源，为什么？它的缺点是什么？"><span class="nav-number">1.13.</span> <span class="nav-text">13.磁电感应式传感器工作时可以不加电源，为什么？它的缺点是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#14-在测量转速实验中，频率-转速的测量结果有什么关系？为什么？"><span class="nav-number">1.14.</span> <span class="nav-text">14. 在测量转速实验中，频率/转速的测量结果有什么关系？为什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#15-霍尔效应、霍尔元件存在不等位电势，如何补偿？"><span class="nav-number">1.15.</span> <span class="nav-text">15. 霍尔效应、霍尔元件存在不等位电势，如何补偿？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#16-读磁卡的原理是什么？"><span class="nav-number">1.16.</span> <span class="nav-text">16. 读磁卡的原理是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#17-压电陶瓷利用的原理是什么？"><span class="nav-number">1.17.</span> <span class="nav-text">17. 压电陶瓷利用的原理是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#18-压电传感器能测量静态物理量吗？"><span class="nav-number">1.18.</span> <span class="nav-text">18. 压电传感器能测量静态物理量吗？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#19-超声波测距的原理是什么？"><span class="nav-number">1.19.</span> <span class="nav-text">19. 超声波测距的原理是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#20-光电效应分为哪两种？、-而内光电效应又分为哪两种"><span class="nav-number">1.20.</span> <span class="nav-text">20. 光电效应分为哪两种？、  而内光电效应又分为哪两种</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#21-光电鼠标的原理？"><span class="nav-number">1.21.</span> <span class="nav-text">21. 光电鼠标的原理？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#22-试构思一种测量脉搏的测量方法（光敏电阻）"><span class="nav-number">1.22.</span> <span class="nav-text">22. 试构思一种测量脉搏的测量方法（光敏电阻）</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">WBH</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("yhEwqThj1SowKvHGQvulbIbe-gzGzoHsz", "3jD9cHSwu4b22OWoICaWVCVK");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+  
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("yhEwqThj1SowKvHGQvulbIbe-gzGzoHsz", "3jD9cHSwu4b22OWoICaWVCVK");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+  
+</body>
+</html>
